@@ -11,6 +11,7 @@ db = pymysql.connect(
 
 cursor = db.cursor()
 
+#definicion de clase atleta
 
 class Atletas():
     def __init__(self, idatleta, apellido, nombre, edad):
